@@ -1,0 +1,1 @@
+No scripts folder/ bootstrip scripts allowed

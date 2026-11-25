@@ -1,0 +1,29 @@
+{
+  "name": "code-buddy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal Pi setup: extensions, skills, and PI WEB",
+  "dependencies": {
+    "@jmfederico/pi-web": "1.202611.5",
+    "@narumitw/pi-chrome-devtools": "0.54.2",
+    "@tintinweb/pi-subagents": "0.26.3",
+    "pi-lens": "4.5.2",
+    "pi-web-access": "0.48.0"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions",
+      "./node_modules/@jmfederico/pi-web/extensions/pi-web.ts",
+      "./node_modules/@narumitw/pi-chrome-devtools/dist/index.ts",
+      "./node_modules/@tintinweb/pi-subagents/src/index.ts",
+      "./node_modules/pi-lens/dist/index.js",
+      "./node_modules/pi-web-access/dist/index.js"
+    ],
+    "skills": [
+      "./skills",
+      "./node_modules/@tintinweb/pi-subagents/skills",
+      "./node_modules/pi-lens/skills"
+    ]
+  }
+}

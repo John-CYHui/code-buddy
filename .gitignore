@@ -1,0 +1,15 @@
+# Local build products and package-manager installs
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+*.log
+
+# Never track credentials or live Pi state
+.env
+.env.*
+!.env.example
+**/auth.json
+**/mcp-auth.json
+**/provider-keys.json
+**/sessions/
+**/mcp-cache.json
